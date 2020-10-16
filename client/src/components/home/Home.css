@@ -1,0 +1,40 @@
+.home-wrapper {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+
+    background-color: black;
+}
+
+.home-wrapper span {
+    color: white;
+    font-size: 2rem;
+}
+
+.home-wrapper input {
+    padding: 10px;
+    margin-right: 5px;
+    width: 160px;
+}
+
+.home-wrapper button {
+    padding: 12px;
+    background-color: transparent;
+    color: white;
+    font-size: 1.1rem;
+    border: 1px solid greenyellow;
+    cursor: pointer;
+}
+
+.home-wrapper button:hover {
+    color: greenyellow;
+}
+
+.home-wrapper button:disabled {
+    color: gray;
+    border: 1px solid white;
+}
